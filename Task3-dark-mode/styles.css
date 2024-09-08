@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.icon {
+    margin-left: 15rem;
+} 
+
+.bi {
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+
+.dark-theme {
+        background-color: black;
+}
+
+@media screen and (max-width: 667px) {
+    .icon {
+        margin-left: 0;
+    }
+    
+    .bi {
+        font-size: 2rem;
+    }
+}

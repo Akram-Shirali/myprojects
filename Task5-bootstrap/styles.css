@@ -1,0 +1,52 @@
+.icon {
+    background-color: rgb(219, 218, 218);
+    display: inline-flex;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    color: rgb(32, 85, 233);
+}
+
+.card-primary {
+    background-color: rgb(51, 50, 50);
+    color: white;
+
+}
+
+.card-info {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .logo {
+    font-weight: 20px;
+    line-height: 1;
+} */
+
+.text-loading {
+    background: #0c2946;
+    color: rgb(238, 243, 248);
+    text-align: center;
+}
+.section4 {
+    background: #0c2946;
+}
+
+
+.footer-link {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-link:hover {
+    color: black;
+}
+
+.footer-header {
+    border-bottom: 3px solid black;
+    height: 35px;
+}
+
+.bi {
+    cursor: pointer;
+}

@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.div {
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+}
+
+.btn {
+  width: 6.2rem;
+  height: 3.1rem;
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    background: rgba(60, 75, 161, 0.473);
+    padding: 20px 30px;
+    /* max-width: 700px; */
+    /* position: absolute;
+        transform: translate(50%, 10%); */
+    border: 0.5rem rgba(55, 95, 55, 0.438) solid;
+    border-radius: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    background: rgba(60, 75, 161, 0.473);
+    padding: 20px 30px;
+    max-width: 700px;
+    position: absolute;
+    transform: translate(50%, 10%);
+    border: 0.5rem rgba(55, 95, 55, 0.438) solid;
+    border-radius: 0.5rem;
+  }
+}
